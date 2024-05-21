@@ -21,11 +21,25 @@ body {
 
 /* header styles */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.menu {
+    /* increase size of text, spacing and ensure no bullet points */
+    text-size-adjust: 4px;
+    list-style: none;
 }
 
 /* main body styles */
