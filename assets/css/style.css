@@ -7,8 +7,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
 }
 
 /* general styles */
@@ -18,11 +16,16 @@ body {
     flex-direction: column;
     /* generic styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* header styles */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* main body styles */
