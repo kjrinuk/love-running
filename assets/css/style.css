@@ -38,7 +38,8 @@ h1 {
 
 .menu {
     /* increase size of text, spacing and ensure no bullet points */
-    text-size-adjust: 4px;
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style: none;
 }
 
