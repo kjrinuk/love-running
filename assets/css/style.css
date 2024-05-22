@@ -22,6 +22,7 @@ body {
 /* header styles */
 header {
     background-color: #ffffff;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -36,12 +37,23 @@ h1 {
     color: #252525;
 }
 
-.menu {
+#menu {
     /* increase size of text, spacing and ensure no bullet points */
     font-size: 110%;
     letter-spacing: 4px;
-    list-style: none;
+    list-style-type: none;
 }
+
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/* add a line under the home menu option */
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 /* main body styles */
 main {
