@@ -27,7 +27,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -47,7 +47,7 @@ h1 {
 }
 
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -58,7 +58,7 @@ h1 {
 
 /* Nav bar styles with dropdown toggle */
 nav {
-    position:absolute;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
@@ -71,9 +71,11 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
-    display:none;
+    display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
@@ -93,6 +95,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* header */
     nav {
         display: block;
@@ -104,10 +107,26 @@ footer {
 
     #menu {
         display: flex;
-        padding: 5px;
-        space-between;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* push main content down to accomodate larger header */
+        margin-top: 82px;
+    }
+
 }
