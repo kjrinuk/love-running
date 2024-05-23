@@ -93,6 +93,14 @@ footer {
     background-color: orange;
 }
 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -107,6 +115,7 @@ footer {
 
     #menu {
         display: flex;
+       
     }
 
     #menu>li {
