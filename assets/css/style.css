@@ -82,11 +82,16 @@ nav {
 
 /* main body styles */
 main {
-    background-color: lightblue;
     /* allow main area to push footer to the bottom of the screen */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
 
 /* footer styles */
 #social-networks {
@@ -94,7 +99,7 @@ main {
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
+
 }
 
 #social-networks i {
